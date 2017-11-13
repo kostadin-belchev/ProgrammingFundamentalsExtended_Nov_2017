@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_IntegerTypes", "01_Integ
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_RealNumberTypes", "02_RealNumberTypes\02_RealNumberTypes.csproj", "{F2FB6D18-8188-4AB8-9429-7127C059C41F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_BigPower", "03_BigPower\03_BigPower.csproj", "{3D2EF4A5-8EC3-46F0-B6F6-B35EC31CFBA8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{F2FB6D18-8188-4AB8-9429-7127C059C41F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2FB6D18-8188-4AB8-9429-7127C059C41F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2FB6D18-8188-4AB8-9429-7127C059C41F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D2EF4A5-8EC3-46F0-B6F6-B35EC31CFBA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D2EF4A5-8EC3-46F0-B6F6-B35EC31CFBA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D2EF4A5-8EC3-46F0-B6F6-B35EC31CFBA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D2EF4A5-8EC3-46F0-B6F6-B35EC31CFBA8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
