@@ -10,16 +10,19 @@ class RotateArrayofStrings
     {
         string[] array = Console.ReadLine().Split(' ');
 
-        var rotatedArray = new string[array.Length];
+        //int rotations = int.Parse(Console.ReadLine());
 
-        for (int i = 1; i < array.Length; i++)
+        //for (int j = 0; j < rotations; j++)
         {
             var element = array[array.Length - 1];
-
-            rotatedArray[i] = array[i - 1];
-            rotatedArray[0] = element;
+            
+            for (int i = array.Length - 1; i >= 1; i--)
+            {
+                array[i] = array[i - 1];
+            }
+            array[0] = element;
         }
 
-        Console.WriteLine(string.Join(" ", rotatedArray));
+        Console.WriteLine(string.Join(" ", array));
     }
 }

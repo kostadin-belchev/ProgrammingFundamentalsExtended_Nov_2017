@@ -48,7 +48,7 @@ namespace _01_AnonymousThreat
             if (partitions != 0)
             {
                 string stringToDivide = listOfStrings[index];
-                StringBuilder builder = new StringBuilder(stringToDivide);
+                StringBuilder stringBuilder = new StringBuilder(stringToDivide);
 
 
             }
