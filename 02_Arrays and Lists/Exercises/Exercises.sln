@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_AnonymousThreat", "01_An
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Icarus", "02_Icarus\02_Icarus.csproj", "{69F9D940-8EC6-42D2-919E-7BC4AF82E713}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_PokemonDon’tGo", "03_PokemonDon’tGo\03_PokemonDon’tGo.csproj", "{CF779072-EB97-4BD9-8E74-8B455ADEB378}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_HornetAssault", "04_HornetAssault\04_HornetAssault.csproj", "{9931A758-D980-4797-9B7C-7DA129DA8408}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{69F9D940-8EC6-42D2-919E-7BC4AF82E713}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69F9D940-8EC6-42D2-919E-7BC4AF82E713}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69F9D940-8EC6-42D2-919E-7BC4AF82E713}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF779072-EB97-4BD9-8E74-8B455ADEB378}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF779072-EB97-4BD9-8E74-8B455ADEB378}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF779072-EB97-4BD9-8E74-8B455ADEB378}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF779072-EB97-4BD9-8E74-8B455ADEB378}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9931A758-D980-4797-9B7C-7DA129DA8408}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9931A758-D980-4797-9B7C-7DA129DA8408}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9931A758-D980-4797-9B7C-7DA129DA8408}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9931A758-D980-4797-9B7C-7DA129DA8408}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
