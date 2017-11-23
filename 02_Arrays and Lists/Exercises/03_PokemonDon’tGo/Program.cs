@@ -16,54 +16,35 @@ class PokemonDon_tGo
         while (listOfLongs.Count > 0)
         {
             var indexToBeRemoved = int.Parse(Console.ReadLine());
-
+            var elementToBeRemoved = 0;
             if (indexToBeRemoved < 0)
             {
                 indexToBeRemoved = 0;
-                var elementToBeRemoved = listOfLongs[indexToBeRemoved];
+                elementToBeRemoved = listOfLongs[indexToBeRemoved];
                 removedElements.Add(elementToBeRemoved);
                 listOfLongs[0] = listOfLongs[listOfLongs.Count - 1]; //last element is copied to pisition 0
-
-                for (int i = 0; i < listOfLongs.Count; i++)
-                {
-                    if (listOfLongs[i] <= elementToBeRemoved)
-                        listOfLongs[i] += elementToBeRemoved;
-                    else
-                        listOfLongs[i] -= elementToBeRemoved;
-                }
             }
             else if (indexToBeRemoved > listOfLongs.Count - 1)
             {
                 indexToBeRemoved = listOfLongs.Count - 1;
-                var elementToBeRemoved = listOfLongs[indexToBeRemoved];
+                elementToBeRemoved = listOfLongs[indexToBeRemoved];
                 removedElements.Add(elementToBeRemoved);
                 listOfLongs[listOfLongs.Count - 1] = listOfLongs[0]; //fist element is copied to last pisition
-
-                for (int i = 0; i < listOfLongs.Count; i++)
-                {
-                    if (listOfLongs[i] <= elementToBeRemoved)
-                        listOfLongs[i] += elementToBeRemoved;
-                    else
-                        listOfLongs[i] -= elementToBeRemoved;
-                }
             }
             else
             {
-                var elementToBeRemoved = listOfLongs[indexToBeRemoved];
-
+                elementToBeRemoved = listOfLongs[indexToBeRemoved];
                 removedElements.Add(elementToBeRemoved);
                 listOfLongs.RemoveAt(indexToBeRemoved);
-
-                for (int i = 0; i < listOfLongs.Count; i++)
-                {
-                    if (listOfLongs[i] <= elementToBeRemoved)
-                        listOfLongs[i] += elementToBeRemoved;
-                    else
-                        listOfLongs[i] -= elementToBeRemoved;
-                }
             }
 
-            
+            for (int i = 0; i < listOfLongs.Count; i++)
+            {
+                if (listOfLongs[i] <= elementToBeRemoved)
+                    listOfLongs[i] += elementToBeRemoved;
+                else
+                    listOfLongs[i] -= elementToBeRemoved;
+            }
         }
         Console.WriteLine(removedElements.Sum());
     }
