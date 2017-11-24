@@ -48,9 +48,25 @@ namespace _01_AnonymousThreat
             if (partitions != 0)
             {
                 string stringToDivide = listOfStrings[index];
-                StringBuilder stringBuilder = new StringBuilder(stringToDivide);
+                var chunkLength = stringToDivide.Length / partitions;
+                List<string> result = new List<string>();
+                //StringBuilder stringBuilder = new StringBuilder(stringToDivide);
+                while (stringToDivide.Length >= chunkLength)
+                {
+                    string currentElement = stringToDivide.Substring(0, chunkLength);
+                    result.Add(currentElement);
+                    stringToDivide = stringToDivide.Substring(chunkLength);
+                }
+                result.Add(stringToDivide); //we add the last element that is less than the chunkLenght to the results array
 
+                if (result.Count != partitions)
+                {
+                    Merge(result.Count - 2, result.Count - 1, result);
+                }
 
+                listOfStrings.RemoveAt(index);
+                listOfStrings.InsertRange(index, result);
+                
             }
         }
 
