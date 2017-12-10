@@ -1,6 +1,10 @@
-5 2 3 4 5 3
-0
-1
-4
-1
-1
+Prakash 111 134 2451 232
+Prakash
+Kosta
+Kosta = Prakash
+Kosta 777
+I believe I can fly!
+
+#Prakash ::: 111, 134, 232, 555, 2451
+#Sony ::: 44, 222 //Sony should stay with 222 only
+#Stamat ::: 44, 222

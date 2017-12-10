@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Rainer", "02_Rainer\02_R
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Rainer_v2", "02_Rainer_v2.0\02_Rainer_v2.csproj", "{855343D8-250E-4508-BCAC-F79F6FA56AED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_Raincast", "03_Raincast\03_Raincast.csproj", "{594D192C-C45C-408D-B183-48E740F76AD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_RainAir", "04_RainAir\04_RainAir.csproj", "{EC98B9BC-C94B-4F18-BD7A-925FCD7F6784}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{855343D8-250E-4508-BCAC-F79F6FA56AED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{855343D8-250E-4508-BCAC-F79F6FA56AED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{855343D8-250E-4508-BCAC-F79F6FA56AED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{594D192C-C45C-408D-B183-48E740F76AD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{594D192C-C45C-408D-B183-48E740F76AD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{594D192C-C45C-408D-B183-48E740F76AD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{594D192C-C45C-408D-B183-48E740F76AD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC98B9BC-C94B-4F18-BD7A-925FCD7F6784}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC98B9BC-C94B-4F18-BD7A-925FCD7F6784}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC98B9BC-C94B-4F18-BD7A-925FCD7F6784}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC98B9BC-C94B-4F18-BD7A-925FCD7F6784}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

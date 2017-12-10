@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{742FBA44-CCF8-4DDF-B348-653F70569F8E}</ProjectGuid>
+    <ProjectGuid>{594D192C-C45C-408D-B183-48E740F76AD6}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_02_HornetArmada</RootNamespace>
-    <AssemblyName>02_HornetArmada</AssemblyName>
+    <RootNamespace>_03_Raincast</RootNamespace>
+    <AssemblyName>03_Raincast</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
