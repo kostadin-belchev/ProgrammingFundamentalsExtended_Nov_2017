@@ -28,7 +28,7 @@ class Rainer
 
                 sequence[i]--;
                 
-                if (sequence[i] == 0 && donaldIndex != i && !isDead)
+                if (sequence[i] == 0  && !isDead)//&& donaldIndex != i
                 {
                     sequence[i] = sequenceCopy[i];
                 }

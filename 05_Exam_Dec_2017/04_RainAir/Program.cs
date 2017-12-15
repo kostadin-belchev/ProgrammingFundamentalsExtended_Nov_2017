@@ -15,9 +15,8 @@ class RainAir
         {
             string inputLine = Console.ReadLine();
             if (inputLine == "I believe I can fly!")
-            {
                 break;
-            }
+
             string[] inputLineTokens = inputLine.Split("= ".ToCharArray(), StringSplitOptions.RemoveEmptyEntries).ToArray();
             List<int> customerFlightList = new List<int>();
             string customerName = string.Empty;
@@ -35,6 +34,7 @@ class RainAir
                 {
                     string customer2Name = inputLineTokens[1];
                     customerFlights[customerName] = customerFlights[customer2Name];
+                    //ERROR IS HERE or below, you have to foreach the list and fill it manually!!! Lists are reference type of data
                 }
             }
             else
@@ -47,26 +47,20 @@ class RainAir
             if (!customerFlights.ContainsKey(customerName)) //if customerName does not exist we add it with his flights
             {
                 customerFlights[customerName] = customerFlightList;
-                //ERROR IS HERE, you have to foreach the list and fill it manually!!! Lists are ference type of data
             }
             else
-            {
                 customerFlights[customerName].AddRange(customerFlightList);
-            }
             
         }
         //output
         //ordering
         foreach (var item in customerFlights.Values)
-        {
             item.Sort();
-        }
+
         customerFlights = customerFlights.OrderByDescending(x => x.Value.Count).ThenBy(x => x.Key).ToDictionary(x => x.Key, y => y.Value);
         //printing
         foreach (var keyValuePair in customerFlights)
-        {
             Console.WriteLine($"#{keyValuePair.Key} ::: {string.Join(", ", keyValuePair.Value)}");
-        }
     }
 }
 

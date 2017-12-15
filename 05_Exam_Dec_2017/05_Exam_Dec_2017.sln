@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_Raincast", "03_Raincast\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_RainAir", "04_RainAir\04_RainAir.csproj", "{EC98B9BC-C94B-4F18-BD7A-925FCD7F6784}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Rainer_v3", "02_Rainer_v3\02_Rainer_v3.csproj", "{DDC52B90-970A-421C-BE48-7D6E0364C9B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_RainAir_SolvedByAuthor", "04_RainAir_SolvedByAuthor\04_RainAir_SolvedByAuthor.csproj", "{D210B068-C60B-41E3-9F49-2E6B13D2F045}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{EC98B9BC-C94B-4F18-BD7A-925FCD7F6784}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC98B9BC-C94B-4F18-BD7A-925FCD7F6784}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC98B9BC-C94B-4F18-BD7A-925FCD7F6784}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDC52B90-970A-421C-BE48-7D6E0364C9B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDC52B90-970A-421C-BE48-7D6E0364C9B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDC52B90-970A-421C-BE48-7D6E0364C9B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDC52B90-970A-421C-BE48-7D6E0364C9B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D210B068-C60B-41E3-9F49-2E6B13D2F045}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D210B068-C60B-41E3-9F49-2E6B13D2F045}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D210B068-C60B-41E3-9F49-2E6B13D2F045}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D210B068-C60B-41E3-9F49-2E6B13D2F045}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
